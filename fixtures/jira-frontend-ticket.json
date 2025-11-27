@@ -1,0 +1,15 @@
+{
+  "key": "FRONTEND-456",
+  "summary": "Create responsive dashboard layout with data visualization",
+  "description": "Design and implement a responsive dashboard that displays key metrics and charts for users.\n\nAcceptance Criteria:\n1. The dashboard should display at least 4 key metric cards (users, revenue, conversions, engagement)\n2. The dashboard should include interactive charts using a charting library\n3. The layout should be responsive and work on mobile, tablet, and desktop screens\n4. The dashboard should load data asynchronously and show loading states\n5. The dashboard should be accessible with proper ARIA labels and keyboard navigation",
+  "labels": ["frontend", "ui", "dashboard"],
+  "issueType": "Story",
+  "linkedIssues": ["FRONTEND-400"],
+  "acceptanceCriteria": [
+    "The dashboard should display at least 4 key metric cards (users, revenue, conversions, engagement)",
+    "The dashboard should include interactive charts using a charting library",
+    "The layout should be responsive and work on mobile, tablet, and desktop screens",
+    "The dashboard should load data asynchronously and show loading states",
+    "The dashboard should be accessible with proper ARIA labels and keyboard navigation"
+  ]
+}

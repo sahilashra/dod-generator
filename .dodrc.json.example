@@ -1,0 +1,14 @@
+{
+  "jira": {
+    "baseUrl": "https://your-jira-instance.atlassian.net",
+    "token": "your-jira-api-token"
+  },
+  "gitlab": {
+    "baseUrl": "https://gitlab.com",
+    "token": "your-gitlab-personal-access-token"
+  },
+  "defaults": {
+    "ticketType": "backend",
+    "postComment": false
+  }
+}

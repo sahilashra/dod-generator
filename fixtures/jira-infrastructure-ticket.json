@@ -1,0 +1,15 @@
+{
+  "key": "INFRA-789",
+  "summary": "Set up Kubernetes cluster for production deployment",
+  "description": "Configure and deploy a production-ready Kubernetes cluster with monitoring and auto-scaling capabilities.\n\nAcceptance Criteria:\n1. The cluster should have at least 3 worker nodes for high availability\n2. The cluster should include monitoring with Prometheus and Grafana\n3. The cluster should have auto-scaling configured based on CPU and memory metrics\n4. The cluster should have proper network policies and security groups configured\n5. The deployment should include a runbook for common operational tasks",
+  "labels": ["infrastructure", "kubernetes", "devops"],
+  "issueType": "Task",
+  "linkedIssues": ["INFRA-700", "INFRA-750"],
+  "acceptanceCriteria": [
+    "The cluster should have at least 3 worker nodes for high availability",
+    "The cluster should include monitoring with Prometheus and Grafana",
+    "The cluster should have auto-scaling configured based on CPU and memory metrics",
+    "The cluster should have proper network policies and security groups configured",
+    "The deployment should include a runbook for common operational tasks"
+  ]
+}

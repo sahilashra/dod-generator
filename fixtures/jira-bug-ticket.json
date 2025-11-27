@@ -1,0 +1,13 @@
+{
+  "key": "BUG-321",
+  "summary": "Fix memory leak in data processing pipeline",
+  "description": "The data processing pipeline is experiencing memory leaks that cause the application to crash after processing large datasets.\n\nAcceptance Criteria:\n1. Memory usage should remain stable during processing of large datasets (>10GB)\n2. The application should not crash after processing multiple batches\n3. Memory should be properly released after each batch is processed",
+  "labels": ["backend", "bug", "performance"],
+  "issueType": "Bug",
+  "linkedIssues": ["BACKEND-200"],
+  "acceptanceCriteria": [
+    "Memory usage should remain stable during processing of large datasets (>10GB)",
+    "The application should not crash after processing multiple batches",
+    "Memory should be properly released after each batch is processed"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "key": "BACKEND-123",
+  "summary": "Implement user authentication API endpoint",
+  "description": "Create a new REST API endpoint for user authentication that supports JWT token generation.\n\nAcceptance Criteria:\n1. The endpoint should accept username and password via POST request\n2. The endpoint should validate credentials against the user database\n3. The endpoint should return a JWT token on successful authentication\n4. The endpoint should return appropriate error messages for invalid credentials\n5. The endpoint should implement rate limiting to prevent brute force attacks",
+  "labels": ["backend", "api", "security"],
+  "issueType": "Story",
+  "linkedIssues": ["BACKEND-100", "BACKEND-105"],
+  "acceptanceCriteria": [
+    "The endpoint should accept username and password via POST request",
+    "The endpoint should validate credentials against the user database",
+    "The endpoint should return a JWT token on successful authentication",
+    "The endpoint should return appropriate error messages for invalid credentials",
+    "The endpoint should implement rate limiting to prevent brute force attacks"
+  ]
+}

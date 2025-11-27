@@ -1,0 +1,10 @@
+{
+  "title": "fix: resolve memory leak in data processing",
+  "ciStatus": "failed",
+  "changedFiles": [
+    "src/processors/DataProcessor.ts",
+    "src/processors/DataProcessor.test.ts",
+    "src/utils/memoryManager.ts"
+  ],
+  "webUrl": "https://gitlab.com/example/project/-/merge_requests/456"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "feat: implement user authentication endpoint",
+  "ciStatus": "passed",
+  "changedFiles": [
+    "src/api/auth/login.ts",
+    "src/api/auth/middleware.ts",
+    "src/api/auth/login.test.ts",
+    "src/models/User.ts",
+    "src/utils/jwt.ts",
+    "docs/api/authentication.md"
+  ],
+  "webUrl": "https://gitlab.com/example/project/-/merge_requests/123"
+}

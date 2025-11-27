@@ -1,0 +1,13 @@
+{
+  "title": "feat: add responsive dashboard with charts",
+  "ciStatus": "running",
+  "changedFiles": [
+    "src/components/Dashboard.tsx",
+    "src/components/MetricCard.tsx",
+    "src/components/Chart.tsx",
+    "src/components/Dashboard.test.tsx",
+    "src/styles/dashboard.css",
+    "src/hooks/useMetrics.ts"
+  ],
+  "webUrl": "https://gitlab.com/example/project/-/merge_requests/789"
+}
