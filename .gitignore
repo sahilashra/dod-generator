@@ -4,3 +4,19 @@ coverage/
 *.log
 .env
 .DS_Store
+
+# Local documentation files (not needed in repo)
+DOCUMENTATION_INDEX.md
+COMPETITION-SUBMISSION.md
+SUBMISSION-CHECKLIST.md
+BLOG-POST-TEMPLATE.md
+PUSH-TO-GITHUB.md
+GITHUB-SUCCESS.md
+END-TO-END-TEST.md
+TEST-GUIDE.md
+TEST-RESULTS.md
+git-setup.ps1
+setup-and-push.ps1
+test-dod.sh
+test-dod.bat
+test-dod.ps1
